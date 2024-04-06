@@ -1,0 +1,10 @@
+{
+  "name": "GGn Multiplatform Edit",
+  "namespace": "https://gazellegames.net/",
+  "require": [
+    "https://unpkg.com/react@18/umd/react.development.js",
+    "https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ],
+  "match": ["https://gazellegames.net/torrents.php?id=*"],
+  "grant": ["GM.xmlHttpRequest"]
+}
