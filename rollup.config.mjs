@@ -19,7 +19,7 @@ export default {
     name: "rollupUserScript",
     banner: () =>
       "\n/*\n" +
-      fs.readFileSync("./LICENSE", "utf8") +
+      // fs.readFileSync("./LICENSE", "utf8") +
       "*/\n\n/* globals React, ReactDOM */",
     sourcemap: true,
     globals: {
