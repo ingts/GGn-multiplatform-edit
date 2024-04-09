@@ -7,7 +7,7 @@ export const TAGS_SELECTOR = "#tagslist li > a:first-child";
 export const DELETE_TAGS_SELECTOR = "a[href*=delete_tag]";
 export const COLLAGE_SELECTOR = "#collages a"; // Category = Theme, Best Of, Arranger
 export const SERIES_SELECTOR = ".series_title a"; // Category = Series
-export const GROUP_INFO = "#sidebar_group_info a"; // Category = Developer, Publisher, Designer, Composer, Engine, Feature, Franchise, Author
+export const GROUP_INFO = "#sidebar_group_info a[href*='collections.php?id=']"; // Category = Developer, Publisher, Designer, Composer, Engine, Feature, Franchise, Author
 export const PACK_INFO = ".box.box_pack a"; // Category = Pack
 export const COLLECTIONS_SELECTORS = [
   COLLAGE_SELECTOR,

@@ -49,6 +49,7 @@ export default {
         homepage: pkg.homepage,
         author: pkg.author,
         license: pkg.license,
+        downloadURL: `${pkg.homepage}/releases/latest/download/${pkg.name}.user.js`,
       },
     }),
   ],

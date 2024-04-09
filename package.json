@@ -1,6 +1,6 @@
 {
   "name": "GGn-multiplatform-edit",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Easily copy collections, web links and tags to linked groups",
   "keywords": [
     "gazelle games",
@@ -8,8 +8,9 @@
     "multiplatform",
     "groups"
   ],
-  "author": "someone",
+  "author": "dullfool68, ingts",
   "license": "MIT",
+  "homepage": "https://github.com/ingts/GGn-multiplatform-edit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx rollup --config rollup.config.mjs",
